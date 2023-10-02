@@ -11,7 +11,7 @@ function HeroSection() {
       <div className={classes.hero__container}>
         <div className={classes.hero__info}>
           <h1 className={classes.hero__title}>
-            Encontre a 
+            Encontre a
             {' '}
             <span>comida perfeita</span>
             {' '}
