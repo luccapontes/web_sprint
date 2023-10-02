@@ -32,7 +32,7 @@ function MyApp({ Component, pageProps }) {
   }, []);
 
   return (
-    <>
+    <main>
       <Head>
         <title>QWERTY APP</title>
         <meta name="description" content="Aplicação do QWERTY para a Sprint" />
@@ -51,7 +51,7 @@ function MyApp({ Component, pageProps }) {
         </Layout>
         <ReactQueryDevtools initialIsOpen={false} />
       </QueryClientProvider>
-    </>
+    </main>
   );
 }
 

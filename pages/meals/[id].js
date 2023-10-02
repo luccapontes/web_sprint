@@ -99,17 +99,17 @@ function SingleMeals() {
           )}
           <Button variant="primary" className={classes.saveButton} onClickHandler={handleSaveButtonClick}>
             {isSaved ? (
-              <>
+              <main>
                 <FaHeartBroken />
                 {' '}
                 Remover
-              </>
+              </main>
             ) : (
-              <>
+              <main>
                 <FaHeart className={classes.saveIcon} />
                 { ' '}
                 Salvar
-              </>
+              </main>
             ) }
           </Button>
         </div>

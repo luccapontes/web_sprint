@@ -24,7 +24,7 @@ function HeroSection() {
           </div>
         </div>
         <div className={classes.hero__img}>
-          <Image src={HeroImg} alt="Meal-khuj" />
+          <Image src={HeroImg} alt="Chef Pic" />
         </div>
       </div>
     </section>

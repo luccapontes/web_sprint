@@ -5,7 +5,7 @@ import classes from './IngredientsTable.module.scss';
 
 function IngredientsTable({ ingredientsWithMeasures }) {
   return (
-    <>
+    <main>
       <Title className={classes.title}>Ingredientes</Title>
       <table className={classes.ingredientsTable}>
         <tbody>
@@ -25,7 +25,7 @@ function IngredientsTable({ ingredientsWithMeasures }) {
           ))}
         </tbody>
       </table>
-    </>
+    </main>
   );
 }
 
