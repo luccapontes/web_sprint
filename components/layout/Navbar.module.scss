@@ -1,0 +1,26 @@
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 0;
+}
+
+.logo {
+	max-width: 150px;
+}
+
+.logoText {
+	font-size: 17px;
+  }
+
+.navLinks {
+	display: flex;
+	gap: 1.5rem;
+	li {
+		display: inline-block;
+	}
+	a {
+		font-size: 1.8rem;
+		display: inline-block;
+	}
+}
