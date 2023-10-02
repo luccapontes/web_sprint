@@ -1,7 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
 import classes from './Footer.module.scss';
-import Logo from '../../images/meal_khuj_logo_primary.png';
 import Text from '../text/Text';
 
 function Footer() {
